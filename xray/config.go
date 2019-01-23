@@ -15,11 +15,11 @@ import (
 	"os"
 	"sync"
 
-	"github.com/aws/aws-xray-sdk-go/daemoncfg"
+	"github.com/blacknut/aws-xray-sdk-go/daemoncfg"
 
-	"github.com/aws/aws-xray-sdk-go/strategy/ctxmissing"
-	"github.com/aws/aws-xray-sdk-go/strategy/exception"
-	"github.com/aws/aws-xray-sdk-go/strategy/sampling"
+	"github.com/blacknut/aws-xray-sdk-go/strategy/ctxmissing"
+	"github.com/blacknut/aws-xray-sdk-go/strategy/exception"
+	"github.com/blacknut/aws-xray-sdk-go/strategy/sampling"
 	log "github.com/cihub/seelog"
 )
 

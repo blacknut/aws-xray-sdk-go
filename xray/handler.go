@@ -17,11 +17,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/aws/aws-xray-sdk-go/strategy/sampling"
+	"github.com/blacknut/aws-xray-sdk-go/strategy/sampling"
 
-	"github.com/aws/aws-xray-sdk-go/header"
-	"github.com/aws/aws-xray-sdk-go/internal/plugins"
-	"github.com/aws/aws-xray-sdk-go/pattern"
+	"github.com/blacknut/aws-xray-sdk-go/header"
+	"github.com/blacknut/aws-xray-sdk-go/internal/plugins"
+	"github.com/blacknut/aws-xray-sdk-go/pattern"
 	log "github.com/cihub/seelog"
 )
 

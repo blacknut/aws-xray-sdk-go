@@ -11,13 +11,13 @@ The AWS X-Ray SDK for Go is compatible with Go 1.7 and above.
 Install the SDK using the following command (The SDK's non-testing dependencies will be installed):
 
 ```
-go get -u github.com/aws/aws-xray-sdk-go/...
+go get -u github.com/blacknut/aws-xray-sdk-go/...
 ```
 
 If you also want to install SDK's testing dependencies. They can be installed using:
 
 ```
-go get -u -t github.com/aws/aws-xray-sdk-go/...
+go get -u -t github.com/blacknut/aws-xray-sdk-go/...
 ```
 
 You may also use [Glide](https://github.com/Masterminds/glide) to manage dependencies by using 
@@ -32,13 +32,13 @@ Please use these community resources for getting help. We use the GitHub issues 
 
 * Ask a question in the [AWS X-Ray Forum](https://forums.aws.amazon.com/forum.jspa?forumID=241&start=0).
 * Open a support ticket with [AWS Support](http://docs.aws.amazon.com/awssupport/latest/user/getting-started.html).
-* If you think you may have found a bug, please open an [issue](https://github.com/aws/aws-xray-sdk-go/issues/new).
+* If you think you may have found a bug, please open an [issue](https://github.com/blacknut/aws-xray-sdk-go/issues/new).
 
 ## Opening Issues
 
-If you encounter a bug with the AWS X-Ray SDK for Go we would like to hear about it. Search the [existing issues](https://github.com/aws/aws-xray-sdk-go/issues) and see if others are also experiencing the issue before opening a new issue. Please include the version of AWS X-Ray SDK for Go, AWS SDK for Go, Go language, and OS you’re using. Please also include repro case when appropriate.
+If you encounter a bug with the AWS X-Ray SDK for Go we would like to hear about it. Search the [existing issues](https://github.com/blacknut/aws-xray-sdk-go/issues) and see if others are also experiencing the issue before opening a new issue. Please include the version of AWS X-Ray SDK for Go, AWS SDK for Go, Go language, and OS you’re using. Please also include repro case when appropriate.
 
-The GitHub issues are intended for bug reports and feature requests. For help and questions regarding the use of the AWS X-Ray SDK for Go please make use of the resources listed in the [Getting Help](https://github.com/aws/aws-xray-sdk-go#getting-help) section. Keeping the list of open issues lean will help us respond in a timely manner.
+The GitHub issues are intended for bug reports and feature requests. For help and questions regarding the use of the AWS X-Ray SDK for Go please make use of the resources listed in the [Getting Help](https://github.com/blacknut/aws-xray-sdk-go#getting-help) section. Keeping the list of open issues lean will help us respond in a timely manner.
 
 ## Documentation
 
@@ -52,13 +52,13 @@ The [developer guide](https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-
 import (
   "context"
 
-  "github.com/aws/aws-xray-sdk-go/xray"
+  "github.com/blacknut/aws-xray-sdk-go/xray"
 
   // Importing the plugins enables collection of AWS resource information at runtime.
-  // Every plugin should be imported after "github.com/aws/aws-xray-sdk-go/xray" library.
-  _ "github.com/aws/aws-xray-sdk-go/plugins/ec2"
-  _ "github.com/aws/aws-xray-sdk-go/plugins/beanstalk"
-  _ "github.com/aws/aws-xray-sdk-go/plugins/ecs"
+  // Every plugin should be imported after "github.com/blacknut/aws-xray-sdk-go/xray" library.
+  _ "github.com/blacknut/aws-xray-sdk-go/plugins/ec2"
+  _ "github.com/blacknut/aws-xray-sdk-go/plugins/beanstalk"
+  _ "github.com/blacknut/aws-xray-sdk-go/plugins/ecs"
 )
 
 func init() {

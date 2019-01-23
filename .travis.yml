@@ -1,6 +1,6 @@
 language: go
 
-go_import_path: github.com/aws/aws-xray-sdk-go
+go_import_path: github.com/blacknut/aws-xray-sdk-go
 
 sudo: required
 

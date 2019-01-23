@@ -15,7 +15,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/request"
 	"github.com/aws/aws-sdk-go/aws/session"
 	xraySvc "github.com/aws/aws-sdk-go/service/xray"
-	"github.com/aws/aws-xray-sdk-go/daemoncfg"
+	"github.com/blacknut/aws-xray-sdk-go/daemoncfg"
 	log "github.com/cihub/seelog"
 )
 

@@ -1,8 +1,8 @@
 Release v1.0.0-rc.9 (2018-12-20)
 ================================
 ### SDK Enhancements
-* Fix http2 datarace in unit test: [PR #72](https://github.com/aws/aws-xray-sdk-go/pull/72)
-* Support passing customized emitter: [PR #76](https://github.com/aws/aws-xray-sdk-go/pull/76)
+* Fix http2 datarace in unit test: [PR #72](https://github.com/blacknut/aws-xray-sdk-go/pull/72)
+* Support passing customized emitter: [PR #76](https://github.com/blacknut/aws-xray-sdk-go/pull/76)
 * Apply Context Missing Strategy if segment is nil in SQL
 * Remove error message content check for certain daemon config unit tests
 
@@ -17,7 +17,7 @@ Release v1.0.0-rc.8 (2018-10-04)
 Release v1.0.0-rc.7 (2018-09-27)
 ================================
 ### SDK Breaking changes
-* `samplingRule` is an exported type : PR[#67](https://github.com/aws/aws-xray-sdk-go/pull/67)
+* `samplingRule` is an exported type : PR[#67](https://github.com/blacknut/aws-xray-sdk-go/pull/67)
 * Renamed `SamplingRule` structure to `Properties`
 
 Release v1.0.0-rc.6 (2018-09-25)
@@ -32,8 +32,8 @@ here: [Link](https://docs.aws.amazon.com/xray/latest/devguide/xray-sdk-go-config
 ### SDK Enhancements
 * Environment variable `AWS_XRAY_DAEMON_ADDRESS` now takes an additional notation in `tcp:127.0.0.1:2000 udp:127.0.0.2:2001` to set TCP and UDP destination separately. By default it assumes a X-Ray daemon listening to both UDP and TCP traffic on 127.0.0.1:2000.
 * Update DefaultSamplingRules.json file. i.e. service_name has been replaced to host and version changed to 2. SDK still supports v1 JSON file.
-* Fix httptrace datarace : [PR #62](https://github.com/aws/aws-xray-sdk-go/pull/62)
-* Fix sub-segment datarace : [PR #61](https://github.com/aws/aws-xray-sdk-go/pull/61)
+* Fix httptrace datarace : [PR #62](https://github.com/blacknut/aws-xray-sdk-go/pull/62)
+* Fix sub-segment datarace : [PR #61](https://github.com/blacknut/aws-xray-sdk-go/pull/61)
 
 Release v1.0.0-rc.5 (2018-05-15)
 ================================

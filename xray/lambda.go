@@ -14,7 +14,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/aws/aws-xray-sdk-go/header"
+	"github.com/blacknut/aws-xray-sdk-go/header"
 	log "github.com/cihub/seelog"
 )
 

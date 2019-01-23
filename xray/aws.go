@@ -21,7 +21,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws/client"
 	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-xray-sdk-go/resources"
+	"github.com/blacknut/aws-xray-sdk-go/resources"
 	log "github.com/cihub/seelog"
 )
 
